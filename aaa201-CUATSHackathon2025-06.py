@@ -1,3 +1,6 @@
+from typing import List
+
+
 def dfs(board, rows, cols, start, word, wordIndex, visited):
     dRow = [0, 1, 0, -1]
     dCol = [-1, 0, 1, 0]
